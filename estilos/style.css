@@ -4,29 +4,49 @@
 }
 
 body{
-    background-color: rgb(168, 164, 172);
+    background-color: rgb(57, 56, 58);
 }
 
 main{
     background-color: white;
-    width: 500px;
+    width: 720px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0.473);
 }
 
 h1 {
+    font-size: 3em;
+    color: rgb(58, 0, 112);
+}
+
+h2 {
     font-size: 2em;
     color: rgb(58, 0, 112);
 }
 
-h1 {
-    font-size: 1.5em;
-    color: rgb(58, 0, 112);
+img.cima {
+    /* float: right; */
+    height: auto; 
+    max-width: 25%;
 }
 
-img.lado {
+img.lado1 {
     float: right;
+    height: auto; 
+    max-width: 12%;
+}
+
+img.lado2 {
+    float: right;
+    height: auto; 
+    max-width: 10%;
+}
+
+img.lado3 {
+    float: right;
+    height: auto; 
+    max-width: 9%;
 }
 
 a {
